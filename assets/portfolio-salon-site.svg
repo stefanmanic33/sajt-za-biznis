@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17111C"/>
+      <stop offset="1" stop-color="#22162A"/>
+    </linearGradient>
+    <linearGradient id="rose" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F8D8D0"/>
+      <stop offset="1" stop-color="#C99B85"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2A202F"/>
+      <stop offset="1" stop-color="#1A141F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" rx="48" fill="url(#bg)"/>
+  <rect x="44" y="44" width="1512" height="912" rx="34" fill="#120F16" stroke="#443246"/>
+  <rect x="44" y="44" width="1512" height="74" rx="34" fill="#1A131E"/>
+  <circle cx="95" cy="81" r="10" fill="#F87171"/><circle cx="125" cy="81" r="10" fill="#FBBF24"/><circle cx="155" cy="81" r="10" fill="#4ADE80"/>
+  <rect x="220" y="64" width="360" height="34" rx="17" fill="#2A202F"/>
+  <rect x="114" y="176" width="560" height="648" rx="34" fill="#221929" stroke="#443246"/>
+  <rect x="138" y="202" width="512" height="306" rx="28" fill="url(#rose)" opacity="0.22"/>
+  <g transform="translate(170 224)">
+    <rect width="448" height="262" rx="24" fill="#F6E5DE"/>
+    <circle cx="224" cy="111" r="72" fill="#EFD0C8"/>
+    <path d="M152 219C165 176 197 160 224 160C251 160 283 176 296 219" stroke="#B97E69" stroke-width="16" stroke-linecap="round"/>
+    <path d="M178 88C197 48 252 46 272 90" stroke="#B97E69" stroke-width="20" stroke-linecap="round"/>
+    <rect x="40" y="44" width="92" height="18" rx="9" fill="#D9B3A7"/>
+    <rect x="317" y="44" width="92" height="18" rx="9" fill="#D9B3A7"/>
+  </g>
+  <text x="742" y="220" fill="#F6E5DE" font-size="34" font-family="Arial" font-weight="700">BELLE STUDIO</text>
+  <text x="742" y="292" fill="#FFFFFF" font-size="72" font-family="Arial" font-weight="800">Luksuzan izgled.</text>
+  <text x="742" y="368" fill="#FFFFFF" font-size="72" font-family="Arial" font-weight="800">Jasna ponuda.</text>
+  <text x="742" y="438" fill="#C7B6C4" font-size="28" font-family="Arial">Tretmani, cenovnik, galerija i zakazivanje</text>
+  <text x="742" y="475" fill="#C7B6C4" font-size="28" font-family="Arial">na elegantnom sajtu koji deluje premium.</text>
+  <rect x="742" y="520" width="230" height="62" rx="31" fill="#F6D8CE"/>
+  <text x="790" y="559" fill="#2A202F" font-size="25" font-family="Arial" font-weight="700">Zakaži tretman</text>
+  <rect x="992" y="520" width="220" height="62" rx="31" fill="#2A202F" stroke="#5B465D"/>
+  <text x="1058" y="559" fill="#F2E6EE" font-size="25" font-family="Arial" font-weight="700">Cenovnik</text>
+  <g transform="translate(742 640)">
+    <rect width="220" height="162" rx="24" fill="url(#card)" stroke="#443246"/>
+    <rect x="24" y="24" width="172" height="94" rx="18" fill="#F2E6EE" opacity="0.12"/>
+    <rect x="24" y="130" width="128" height="12" rx="6" fill="#F6E5DE"/>
+    <rect x="24" y="150" width="95" height="10" rx="5" fill="#8F7B93"/>
+  </g>
+  <g transform="translate(986 640)">
+    <rect width="220" height="162" rx="24" fill="url(#card)" stroke="#443246"/>
+    <rect x="24" y="24" width="130" height="16" rx="8" fill="#F6E5DE"/>
+    <rect x="24" y="56" width="172" height="12" rx="6" fill="#8F7B93"/>
+    <rect x="24" y="89" width="172" height="12" rx="6" fill="#8F7B93"/>
+    <rect x="24" y="122" width="104" height="18" rx="9" fill="#F6D8CE"/>
+  </g>
+  <g transform="translate(1230 640)">
+    <rect width="220" height="162" rx="24" fill="url(#card)" stroke="#443246"/>
+    <circle cx="70" cy="82" r="36" fill="#F6D8CE"/>
+    <circle cx="150" cy="82" r="36" fill="#EFD0C8" opacity="0.75"/>
+    <rect x="36" y="132" width="148" height="12" rx="6" fill="#F6E5DE"/>
+  </g>
+</svg>

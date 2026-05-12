@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#102A43"/>
+    </linearGradient>
+    <linearGradient id="fun" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#A7F3D0"/>
+      <stop offset="0.45" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#14304C"/>
+      <stop offset="1" stop-color="#0E2237"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" rx="48" fill="url(#bg)"/>
+  <rect x="44" y="44" width="1512" height="912" rx="34" fill="#0A1525" stroke="#1D3A58"/>
+  <rect x="44" y="44" width="1512" height="74" rx="34" fill="#102034"/>
+  <circle cx="95" cy="81" r="10" fill="#F87171"/><circle cx="125" cy="81" r="10" fill="#FBBF24"/><circle cx="155" cy="81" r="10" fill="#4ADE80"/>
+  <rect x="220" y="64" width="360" height="34" rx="17" fill="#19314B"/>
+  <rect x="108" y="175" width="565" height="650" rx="34" fill="#12273C" stroke="#1D3A58"/>
+  <rect x="132" y="199" width="517" height="318" rx="28" fill="url(#fun)" opacity="0.25"/>
+  <g transform="translate(168 233)">
+    <rect width="445" height="250" rx="24" fill="#F0FDFA"/>
+    <path d="M55 190L135 90L212 190H55Z" fill="#F59E0B" opacity="0.88"/>
+    <path d="M155 190L260 60L365 190H155Z" fill="#3B82F6" opacity="0.85"/>
+    <rect x="56" y="194" width="307" height="22" rx="11" fill="#A7F3D0"/>
+    <circle cx="331" cy="104" r="28" fill="#FDE68A"/>
+    <circle cx="109" cy="211" r="17" fill="#F97316"/>
+    <circle cx="162" cy="211" r="17" fill="#10B981"/>
+    <circle cx="215" cy="211" r="17" fill="#3B82F6"/>
+  </g>
+  <text x="742" y="220" fill="#D1FAE5" font-size="34" font-family="Arial" font-weight="700">PLAY LAND</text>
+  <text x="742" y="292" fill="#FFFFFF" font-size="72" font-family="Arial" font-weight="800">Vedar sajt.</text>
+  <text x="742" y="368" fill="#FFFFFF" font-size="72" font-family="Arial" font-weight="800">Lak upit roditelja.</text>
+  <text x="742" y="438" fill="#B7D0E8" font-size="28" font-family="Arial">Paketi za rođendane, galerija prostora, cene</text>
+  <text x="742" y="475" fill="#B7D0E8" font-size="28" font-family="Arial">i poruka jednim klikom za slobodne termine.</text>
+  <rect x="742" y="520" width="250" height="62" rx="31" fill="#A7F3D0"/>
+  <text x="792" y="559" fill="#0A1525" font-size="25" font-family="Arial" font-weight="700">Pošalji upit</text>
+  <rect x="1012" y="520" width="210" height="62" rx="31" fill="#19314B" stroke="#335B84"/>
+  <text x="1060" y="559" fill="#E0F2FE" font-size="25" font-family="Arial" font-weight="700">Paketi</text>
+  <g transform="translate(742 640)">
+    <rect width="220" height="162" rx="24" fill="url(#card)" stroke="#1D3A58"/>
+    <rect x="24" y="24" width="80" height="80" rx="22" fill="#A7F3D0"/>
+    <rect x="121" y="34" width="74" height="14" rx="7" fill="#E0F2FE"/>
+    <rect x="121" y="58" width="58" height="12" rx="6" fill="#7FB0D5"/>
+    <rect x="24" y="126" width="146" height="12" rx="6" fill="#E0F2FE"/>
+  </g>
+  <g transform="translate(986 640)">
+    <rect width="220" height="162" rx="24" fill="url(#card)" stroke="#1D3A58"/>
+    <rect x="24" y="24" width="172" height="12" rx="6" fill="#E0F2FE"/>
+    <rect x="24" y="48" width="142" height="12" rx="6" fill="#7FB0D5"/>
+    <rect x="24" y="90" width="172" height="44" rx="18" fill="#1A3D5E"/>
+    <text x="53" y="118" fill="#A7F3D0" font-size="18" font-family="Arial" font-weight="700">Slobodni termini</text>
+  </g>
+  <g transform="translate(1230 640)">
+    <rect width="220" height="162" rx="24" fill="url(#card)" stroke="#1D3A58"/>
+    <circle cx="66" cy="76" r="18" fill="#F97316"/>
+    <circle cx="110" cy="76" r="18" fill="#3B82F6"/>
+    <circle cx="154" cy="76" r="18" fill="#10B981"/>
+    <rect x="36" y="122" width="148" height="12" rx="6" fill="#E0F2FE"/>
+  </g>
+</svg>

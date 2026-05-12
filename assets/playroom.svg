@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff2cf"/><stop offset="1" stop-color="#ffdca8"/></linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#d8b46a"/><stop offset="1" stop-color="#9b6a30"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000" flood-opacity=".25"/></filter>
+  </defs>
+  <rect width="900" height="520" fill="url(#wall)"/>
+  <rect y="355" width="900" height="165" fill="url(#floor)"/>
+  <rect x="70" y="70" width="210" height="150" rx="26" fill="#7cc8ff" opacity=".95" filter="url(#s)"/>
+  <circle cx="175" cy="145" r="45" fill="#fff7dd"/>
+  <rect x="610" y="64" width="210" height="170" rx="28" fill="#f48fb1" filter="url(#s)"/>
+  <path d="M630 195 Q715 100 805 195" fill="#fff7dd" opacity=".92"/>
+  <rect x="310" y="95" width="250" height="220" rx="36" fill="#56c596" filter="url(#s)"/>
+  <circle cx="380" cy="170" r="28" fill="#fff1c7"/><circle cx="490" cy="170" r="28" fill="#fff1c7"/>
+  <rect x="355" y="230" width="160" height="28" rx="14" fill="#0f3d34" opacity=".78"/>
+  <rect x="115" y="315" width="210" height="88" rx="42" fill="#f7a531" filter="url(#s)"/>
+  <rect x="360" y="325" width="185" height="76" rx="38" fill="#7cc8ff" filter="url(#s)"/>
+  <rect x="600" y="305" width="185" height="102" rx="34" fill="#f48fb1" filter="url(#s)"/>
+  <circle cx="155" cy="438" r="38" fill="#fff1c7"/><circle cx="245" cy="440" r="32" fill="#fff1c7"/><circle cx="690" cy="438" r="38" fill="#fff1c7"/>
+  <rect x="88" y="32" width="724" height="22" rx="11" fill="#fff" opacity=".35"/>
+</svg>

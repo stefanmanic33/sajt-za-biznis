@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="220" y1="180" x2="720" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDE7A4"/>
+      <stop offset="1" stop-color="#D9A94F"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1F2937"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" rx="48" fill="url(#bg)"/>
+  <rect x="44" y="44" width="1512" height="912" rx="34" fill="#0B1120" stroke="#334155"/>
+  <rect x="44" y="44" width="1512" height="74" rx="34" fill="#111827"/>
+  <circle cx="95" cy="81" r="10" fill="#F87171"/><circle cx="125" cy="81" r="10" fill="#FBBF24"/><circle cx="155" cy="81" r="10" fill="#4ADE80"/>
+  <rect x="220" y="64" width="350" height="34" rx="17" fill="#1E293B"/>
+  <rect x="92" y="150" width="610" height="460" rx="28" fill="url(#gold)" opacity="0.22"/>
+  <g transform="translate(110 170)">
+    <rect width="570" height="420" rx="28" fill="#131E2A" stroke="#334155"/>
+    <path d="M58 268C120 235 148 220 210 221C265 222 321 250 386 251C455 252 503 214 515 214V340H58V268Z" fill="#F59E0B" opacity="0.8"/>
+    <circle cx="155" cy="315" r="54" fill="#111827" stroke="#F8D58C" stroke-width="16"/>
+    <circle cx="434" cy="315" r="54" fill="#111827" stroke="#F8D58C" stroke-width="16"/>
+    <path d="M144 205H314C360 205 377 212 414 243L471 243C484 243 497 250 503 261L525 297H111L120 243C123 225 129 205 144 205Z" fill="#CBD5E1"/>
+    <rect x="177" y="226" width="110" height="50" rx="14" fill="#0F172A" opacity="0.8"/>
+    <rect x="304" y="226" width="91" height="50" rx="14" fill="#0F172A" opacity="0.8"/>
+  </g>
+  <text x="760" y="225" fill="#F8FAFC" font-size="34" font-family="Arial, Helvetica, sans-serif" font-weight="700">AUTO SERVIS NOVAK</text>
+  <text x="760" y="278" fill="#CBD5E1" font-size="72" font-family="Arial, Helvetica, sans-serif" font-weight="800">Brz servis.</text>
+  <text x="760" y="355" fill="#CBD5E1" font-size="72" font-family="Arial, Helvetica, sans-serif" font-weight="800">Jasan nastup.</text>
+  <text x="760" y="425" fill="#94A3B8" font-size="28" font-family="Arial, Helvetica, sans-serif">Mali servis, dijagnostika, vulkanizer i zakazivanje</text>
+  <text x="760" y="462" fill="#94A3B8" font-size="28" font-family="Arial, Helvetica, sans-serif">jednim klikom — sajt koji odmah uliva poverenje.</text>
+  <rect x="760" y="510" width="220" height="62" rx="31" fill="#F8D58C"/>
+  <text x="817" y="549" fill="#111827" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="700">Pozovi odmah</text>
+  <rect x="1000" y="510" width="220" height="62" rx="31" fill="#1E293B" stroke="#334155"/>
+  <text x="1071" y="549" fill="#E2E8F0" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="700">Usluge</text>
+  <g transform="translate(760 635)">
+    <rect width="228" height="160" rx="24" fill="url(#card)" stroke="#334155"/>
+    <rect x="24" y="24" width="56" height="56" rx="16" fill="#F8D58C"/>
+    <rect x="24" y="102" width="140" height="14" rx="7" fill="#E5E7EB" opacity="0.85"/>
+    <rect x="24" y="126" width="112" height="12" rx="6" fill="#64748B"/>
+    <text x="99" y="58" fill="#111827" font-size="18" font-family="Arial" font-weight="700">24/7</text>
+    <text x="97" y="78" fill="#111827" font-size="14" font-family="Arial">Support</text>
+  </g>
+  <g transform="translate(1010 635)">
+    <rect width="228" height="160" rx="24" fill="url(#card)" stroke="#334155"/>
+    <rect x="24" y="24" width="180" height="16" rx="8" fill="#F8FAFC" opacity="0.9"/>
+    <rect x="24" y="53" width="140" height="12" rx="6" fill="#64748B"/>
+    <rect x="24" y="92" width="180" height="44" rx="18" fill="#182332"/>
+    <text x="48" y="120" fill="#F8D58C" font-size="18" font-family="Arial" font-weight="700">Zakazivanje termina</text>
+  </g>
+  <g transform="translate(1260 635)">
+    <rect width="228" height="160" rx="24" fill="url(#card)" stroke="#334155"/>
+    <path d="M36 119L88 72L128 100L168 55L192 76V128H36V119Z" fill="#F8D58C" opacity="0.8"/>
+    <rect x="36" y="34" width="156" height="18" rx="9" fill="#F8FAFC" opacity="0.9"/>
+    <rect x="36" y="60" width="108" height="12" rx="6" fill="#64748B"/>
+  </g>
+</svg>
