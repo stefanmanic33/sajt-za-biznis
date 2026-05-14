@@ -159,8 +159,12 @@ h1 { font-size: clamp(48px, 7vw, 88px); line-height: .92; letter-spacing: -0.085
 .lead-form label { display: grid; gap: 8px; }
 .lead-form span { font-size: 14px; color: var(--gold-2); font-weight: 700; }
 .lead-form input { width: 100%; border-radius: 16px; border: 1px solid rgba(255,255,255,.12); background: rgba(9,9,9,.72); color: var(--text); padding: 15px 16px; font: inherit; outline: none; transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease; }
+.lead-form textarea { width: 100%; min-height: 120px; border-radius: 16px; border: 1px solid rgba(255,255,255,.12); background: rgba(9,9,9,.72); color: var(--text); padding: 15px 16px; font: inherit; outline: none; resize: vertical; transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease; }
 .lead-form input::placeholder { color: rgba(238,233,223,.45); }
+.lead-form textarea::placeholder { color: rgba(238,233,223,.45); }
 .lead-form input:focus { border-color: rgba(240,215,151,.7); box-shadow: 0 0 0 4px rgba(216,180,106,.12); }
+.lead-form textarea:focus { border-color: rgba(240,215,151,.7); box-shadow: 0 0 0 4px rgba(216,180,106,.12); }
+.form-note { font-size: 12px; line-height: 1.45; color: rgba(238,233,223,.7); font-weight: 500; }
 .full-width { grid-column: 1 / -1; }
 .form-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 18px; }
 .form-actions .btn { width: 100%; justify-content: center; }

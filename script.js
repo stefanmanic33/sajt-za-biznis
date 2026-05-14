@@ -43,6 +43,7 @@ if (leadForm) {
     const lastName = formData.get("lastName") || "";
     const phone = formData.get("phone") || "";
     const email = formData.get("email") || "";
+    const note = formData.get("note") || "";
     const subject = encodeURIComponent("Upit za izradu sajta");
     const body = encodeURIComponent(
       [
@@ -53,13 +54,14 @@ if (leadForm) {
         "Delatnost / zanimanje: " + occupation,
         "Ime: " + firstName,
         "Prezime: " + lastName,
-        "Kontakt telefon: " + phone,
+        "Mobilni telefon: " + phone,
         "Email: " + email,
+        note ? "Napomena: " + note : "Napomena: -",
         "",
         "Pozdrav",
       ].join("\n"),
     );
     window.location.href =
-      "mailto:stefanmnc@outlook.com?subject=" + subject + "&body=" + body;
+      "mailto:sajtzabiznis@gmail.com?subject=" + subject + "&body=" + body;
   });
 }
