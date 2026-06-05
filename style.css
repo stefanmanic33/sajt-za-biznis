@@ -326,6 +326,24 @@ h1 {
   color: #001e35;
   background: linear-gradient(135deg, #a8eeff, #00c8e6);
 }
+.preview-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 999px;
+  padding: 14px 18px;
+  font-weight: 900;
+  color: #001e35;
+  background: linear-gradient(135deg, #a8eeff, #00c8e6);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.preview-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 34px rgba(0, 200, 230, 0.22);
+}
 .preview-card {
   min-height: 420px;
   border-radius: 30px;
