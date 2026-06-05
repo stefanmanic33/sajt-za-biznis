@@ -587,6 +587,7 @@ h1 {
   font-weight: 900;
   letter-spacing: -0.07em;
   background: linear-gradient(135deg, #fff, #a8eeff, #00c8e6);
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   margin: 18px 0;
@@ -924,10 +925,10 @@ h1 {
     min-height: auto;
   }
   .preview-card {
-    min-height: 320px;
+    min-height: 280px;
   }
   .mini-window {
-    min-height: 320px;
+    min-height: 280px;
   }
   .preview-copy h2 {
     font-size: 30px;
@@ -938,9 +939,6 @@ h1 {
   }
   .preview-copy button {
     width: 100%;
-  }
-  .preview-card {
-    min-height: 250px;
   }
   .floating-badge {
     display: none;
@@ -1024,11 +1022,20 @@ h1 {
   }
   .hero {
     padding-top: 16px;
-    gap: 24px;
+    gap: 20px;
   }
   .hero-actions,
   .form-actions {
     gap: 10px;
+  }
+  .premium-preview {
+    padding: 18px;
+  }
+  .preview-copy h2 {
+    font-size: 26px;
+  }
+  .preview-copy p {
+    font-size: 14px;
   }
   .btn {
     min-height: 50px;
@@ -1058,6 +1065,9 @@ h1 {
     line-height: 1.65;
   }
   .portfolio-image {
+    height: 190px;
+  }
+  .portfolio-shot {
     height: 190px;
   }
   .price {
