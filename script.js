@@ -35,33 +35,58 @@ reveals.forEach((item) => observer.observe(item));
 
 const leadForm = document.querySelector("#leadForm");
 if (leadForm) {
-  leadForm.addEventListener("submit", (event) => {
+  const submitButton = leadForm.querySelector('button[type="submit"]');
+  const statusNode = document.createElement("p");
+  statusNode.className = "form-note";
+  statusNode.setAttribute("role", "status");
+  statusNode.setAttribute("aria-live", "polite");
+  leadForm.appendChild(statusNode);
+
+  const setFormStatus = (message, isError = false) => {
+    statusNode.textContent = message;
+    statusNode.style.color = isError ? "#ffb4b4" : "#9cecff";
+  };
+
+  leadForm.addEventListener("submit", async (event) => {
     event.preventDefault();
+
     const formData = new FormData(leadForm);
-    const occupation = formData.get("occupation") || "";
-    const firstName = formData.get("firstName") || "";
-    const lastName = formData.get("lastName") || "";
-    const phone = formData.get("phone") || "";
-    const email = formData.get("email") || "";
-    const note = formData.get("note") || "";
-    const subject = encodeURIComponent("Upit za izradu sajta");
-    const body = encodeURIComponent(
-      [
-        "Zdravo,",
-        "",
-        "Šaljem upit za izradu sajta.",
-        "",
-        "Delatnost / zanimanje: " + occupation,
-        "Ime: " + firstName,
-        "Prezime: " + lastName,
-        "Mobilni telefon: " + phone,
-        "Email: " + email,
-        note ? "Napomena: " + note : "Napomena: -",
-        "",
-        "Pozdrav",
-      ].join("\n"),
-    );
-    window.location.href =
-      "mailto:sajtzabiznis@gmail.com?subject=" + subject + "&body=" + body;
+
+    formData.set("_subject", "Novi upit sa sajta - Sajt za Biznis");
+    formData.set("_template", "table");
+
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.textContent = "Slanje...";
+    }
+
+    setFormStatus("Šaljemo upit, sačekajte trenutak...");
+
+    try {
+      const response = await fetch(leadForm.action, {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+        },
+        body: formData,
+      });
+
+      if (!response.ok) {
+        throw new Error("Slanje nije uspelo");
+      }
+
+      setFormStatus("Upit je uspešno poslat. Hvala, javićemo se uskoro.");
+      leadForm.reset();
+    } catch (_error) {
+      setFormStatus(
+        "Došlo je do greške pri slanju. Pokušajte ponovo ili pošaljite na sajtzabiznis@gmail.com.",
+        true,
+      );
+    } finally {
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.textContent = "Pošalji upit";
+      }
+    }
   });
 }

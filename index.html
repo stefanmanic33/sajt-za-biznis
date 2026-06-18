@@ -667,8 +667,8 @@
               utiskom.
             </h2>
             <p>
-              Ostavite osnovne podatke i klikom na dugme otvoriće se email sa
-              popunjenim informacijama spremnim za slanje.
+              Ostavite osnovne podatke i upit će biti poslat direktno nama na
+              email bez otvaranja vašeg mail programa.
             </p>
             <div class="contact-quick-links">
               <a
@@ -678,7 +678,14 @@
               >
             </div>
           </div>
-          <form id="leadForm" class="lead-form">
+          <form
+            id="leadForm"
+            class="lead-form"
+            method="post"
+            action="https://formsubmit.co/ajax/sajtzabiznis@gmail.com"
+          >
+            <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display: none" />
+            <input type="hidden" name="_captcha" value="false" />
             <div class="form-grid">
               <label>
                 <span>Zanimanje / delatnost</span>
@@ -741,9 +748,7 @@
               </label>
             </div>
             <div class="form-actions">
-              <button class="btn btn-primary" type="submit">
-                Pošalji upit mailom
-              </button>
+              <button class="btn btn-primary" type="submit">Pošalji upit</button>
             </div>
           </form>
         </div>
