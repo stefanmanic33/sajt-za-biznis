@@ -1,0 +1,21 @@
+{
+  "name": "Sajt za Biznis",
+  "short_name": "Sajt za Biznis",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#060c1a",
+  "theme_color": "#060c1a",
+  "icons": [
+    {
+      "src": "/assets/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

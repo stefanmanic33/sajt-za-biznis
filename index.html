@@ -14,7 +14,14 @@
     />
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="author" content="Sajt za Biznis" />
+    <meta name="language" content="sr-RS" />
     <link rel="canonical" href="https://sajtzabiznis.rs/" />
+    <link rel="alternate" hreflang="sr-RS" href="https://sajtzabiznis.rs/" />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://sajtzabiznis.rs/"
+    />
 
     <!-- Open Graph: kako link izgleda kada ga deliš na društvenim mrežama -->
     <meta property="og:locale" content="sr_RS" />
@@ -31,7 +38,18 @@
     <meta property="og:site_name" content="Sajt za Biznis" />
     <meta
       property="og:image"
-      content="https://sajtzabiznis.rs/assets/og-image.svg"
+      content="https://sajtzabiznis.rs/assets/og-image.png"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://sajtzabiznis.rs/assets/og-image.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Sajt za Biznis - izrada modernih sajtova za male biznise"
     />
 
     <meta name="twitter:card" content="summary_large_image" />
@@ -45,10 +63,29 @@
     />
     <meta
       name="twitter:image"
-      content="https://sajtzabiznis.rs/assets/og-image.svg"
+      content="https://sajtzabiznis.rs/assets/og-image.png"
     />
+    <meta
+      name="twitter:image:alt"
+      content="Sajt za Biznis - izrada modernih sajtova za male biznise"
+    />
+    <meta name="googlebot" content="index, follow, max-image-preview:large" />
 
-    <link rel="icon" href="assets/favicon.svg?v=2" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="icon"
+      href="/assets/favicon-96.png"
+      type="image/png"
+      sizes="96x96"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/assets/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#060c1a" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -60,11 +97,76 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
+        "@type": "Organization",
+        "@id": "https://sajtzabiznis.rs/#organization",
+        "name": "Sajt za Biznis",
+        "url": "https://sajtzabiznis.rs/",
+        "logo": "https://sajtzabiznis.rs/assets/favicon-512.png",
+        "email": "sajtzabiznis@gmail.com"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://sajtzabiznis.rs/#website",
+        "url": "https://sajtzabiznis.rs/",
+        "name": "Sajt za Biznis",
+        "inLanguage": "sr-RS",
+        "publisher": {
+          "@id": "https://sajtzabiznis.rs/#organization"
+        }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://sajtzabiznis.rs/#webpage",
+        "url": "https://sajtzabiznis.rs/",
+        "name": "Sajt za Biznis | Izrada modernih sajtova za male biznise od 329€",
+        "description": "Sajt za Biznis izrađuje moderne, brze i prodajno orijentisane sajtove za male biznise u Srbiji.",
+        "inLanguage": "sr-RS",
+        "isPartOf": {
+          "@id": "https://sajtzabiznis.rs/#website"
+        },
+        "about": {
+          "@id": "https://sajtzabiznis.rs/#professional-service"
+        },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://sajtzabiznis.rs/assets/og-image.png",
+          "width": 1200,
+          "height": 630
+        },
+        "dateModified": "2026-06-18"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
         "@type": "ProfessionalService",
+        "@id": "https://sajtzabiznis.rs/#professional-service",
         "name": "Sajt za Biznis",
         "description": "Izrada modernih, brzih i preglednih sajtova za male biznise u Srbiji.",
         "url": "https://sajtzabiznis.rs/",
+        "image": "https://sajtzabiznis.rs/assets/og-image.svg",
+        "logo": "https://sajtzabiznis.rs/assets/favicon-512.png",
         "email": "sajtzabiznis@gmail.com",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "email": "sajtzabiznis@gmail.com",
+            "availableLanguage": ["sr"],
+            "areaServed": "RS"
+          }
+        ],
+        "inLanguage": "sr-RS",
+        "mainEntityOfPage": "https://sajtzabiznis.rs/",
+        "provider": {
+          "@id": "https://sajtzabiznis.rs/#organization"
+        },
         "areaServed": ["Srbija", "Beograd", "Rakovica", "Miljakovac"],
         "priceRange": "329€ - 699€",
         "serviceType": [
@@ -73,7 +175,33 @@
           "Lokalni SEO",
           "Statički sajtovi"
         ],
-        "sameAs": []
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Paketi usluge",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "name": "START paket",
+              "price": "329",
+              "priceCurrency": "EUR",
+              "url": "https://sajtzabiznis.rs/#paketi"
+            },
+            {
+              "@type": "Offer",
+              "name": "BIZNIS paket",
+              "price": "499",
+              "priceCurrency": "EUR",
+              "url": "https://sajtzabiznis.rs/#paketi"
+            },
+            {
+              "@type": "Offer",
+              "name": "PREMIUM paket",
+              "price": "699",
+              "priceCurrency": "EUR",
+              "url": "https://sajtzabiznis.rs/#paketi"
+            }
+          ]
+        }
       }
     </script>
     <script type="application/ld+json">
@@ -91,7 +219,15 @@
           },
           {
             "@type": "Question",
-            "name": "Da li svaki sajt radi na telefonu?",
+            "name": "Koliko traje izrada sajta?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Jednostavan sajt može biti gotov za nekoliko dana. Veći sajt sa više stranica, SEO strukturom i dodatnim materijalom traje duže."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Da li će sajt raditi na telefonu?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Da. Svaki sajt se pravi mobile-first, tako da lepo izgleda na telefonu, tabletu i računaru."
@@ -99,10 +235,18 @@
           },
           {
             "@type": "Question",
-            "name": "Da li pomažete oko domena i objave sajta?",
+            "name": "Da li pomažete oko domena?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Da. Paketi mogu uključiti pomoć oko povezivanja domena, hostinga, GitHub Pages-a, Netlify-ja i osnovnog SEO podešavanja."
+              "text": "Da. Možemo pomoći oko povezivanja domena, GitHub Pages-a, Netlify-ja, osnovnih DNS podešavanja i objave sajta."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Da li je SEO uključen?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Da. Svaki paket ima osnovni SEO, a viši paketi mogu uključiti sitemap, robots.txt, Open Graph, schema markup, keyword plan i pomoć oko Google Search Console-a."
             }
           }
         ]
